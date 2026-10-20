@@ -1,0 +1,12 @@
+0 Egg Carton
+1 Paper Plate
+2 Can
+3 Marker
+4 Tin Foil
+5 Blue Folder
+6 Plastic Bottle
+7 Stick
+8 Cardboard
+9 Plastic Spoon
+10 Plastic Bag
+11 Mask
