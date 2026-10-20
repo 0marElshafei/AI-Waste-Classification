@@ -30,6 +30,11 @@ python waste_classifier.py
 
 Requires a webcam. Press `Esc` to quit.
 
+Note: `tensorflow` and `keras` are pinned to specific versions (2.18.1 / 3.6.0).
+Teachable Machine's exported `.h5` models are sensitive to TensorFlow/Keras
+version mismatches, installing the latest versions of either package will
+throw a `ValueError` when the model loads, so stick to the pinned versions.
+
 ## Files
 
 - `waste_classifier.py` — main script: loads the model, runs live classification, maps predictions to disposal bins
